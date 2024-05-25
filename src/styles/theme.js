@@ -8,9 +8,11 @@ export default {
 
         BLACK: "#000000",
         BLUE:"#312E38",
+        GRAY2: "#999591",
         GRAY: "#948F99",
         WHITE: "#F4EDE8",
-        PINK: "#FF859B",
+        DARKPINK: "rgba(255, 133, 155, 0.05)",
+        PINK: "rgba(255, 133, 155)",
 
     }
 }

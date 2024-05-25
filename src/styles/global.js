@@ -5,16 +5,31 @@ export default createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        
     }
 
     body {
         background: ${({theme}) => theme.COLOR.BG_BASE};
-        color: ${({theme}) => theme.COLOR.WHITE};
+        max-width: 1920px;
+        margin: 0 auto;
 
-        font-family: 'Roboto Slab', sans-serif;
+        ::-webkit-scrollbar {
+        width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background-color: rgba(0,0,0,0.3);
+        }
+
+        ::-webkit-scrollbar-thumb {
+        background: ${({theme}) => theme.COLOR.PINK};
+        border-radius: 8px;
+        }
+
+        
     }
 
-    input {
+    input, button, body {
         color: ${({theme}) => theme.COLOR.WHITE};
         font-family: 'Roboto Slab', sans-serif;
     }

@@ -23,6 +23,10 @@ export const Container = styled.header`
         white-space: nowrap
     }
 
+    > :nth-child(2) {
+        max-width: 1120px;
+    }
+
 `
 
 export const Profile = styled.div`
