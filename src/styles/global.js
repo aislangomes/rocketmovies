@@ -38,6 +38,11 @@ export default createGlobalStyle`
         cursor: pointer;
     }
 
+    a {
+        color: ${({theme}) => theme.COLOR.PINK};
+        text-decoration: none;
+    }
+
     button:hover{
         filter: brightness(1.2);
     }
