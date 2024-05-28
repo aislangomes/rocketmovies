@@ -4,7 +4,7 @@ export const Container = styled.header`
     height: 118px;
     width: 100%;
 
-    grid-area: header;
+    grid-area: "header";
 
     border: none;
     border-bottom: 1px solid ${({theme}) => theme.COLOR.STROKE};

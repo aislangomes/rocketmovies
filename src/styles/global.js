@@ -29,13 +29,17 @@ export default createGlobalStyle`
         
     }
 
-    input, button, body {
+    input, button, body, textarea {
         color: ${({theme}) => theme.COLOR.WHITE};
         font-family: 'Roboto Slab', sans-serif;
     }
     
     button, a{
         cursor: pointer;
+    }
+
+    button:hover{
+        filter: brightness(1.2);
     }
 
 

@@ -14,6 +14,7 @@ export const Container = styled.button`
     align-items: center;
 
     gap:8px;
+    border: none;
 
     > svg {
         font-size: 16px;
