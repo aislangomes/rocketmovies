@@ -3,6 +3,7 @@ export default {
         BG_AREA: "#0D0C0F",
         BG_BASE: "#1C1B1E",
         BG_INPUT: "#262529",
+        BG_TAG: "#282124",
 
         STROKE: "#3E3B47",
 

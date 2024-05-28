@@ -14,7 +14,7 @@ export default createGlobalStyle`
         margin: 0 auto;
 
         ::-webkit-scrollbar {
-        width: 8px;
+            width: 8px;
         }
         
         ::-webkit-scrollbar-track {
@@ -22,8 +22,8 @@ export default createGlobalStyle`
         }
 
         ::-webkit-scrollbar-thumb {
-        background: ${({theme}) => theme.COLOR.PINK};
-        border-radius: 8px;
+            background: ${({theme}) => theme.COLOR.PINK};
+            border-radius: 8px;
         }
 
         
