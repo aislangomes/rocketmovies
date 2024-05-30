@@ -31,6 +31,14 @@ export const Content = styled.div`
         text-align: justify;
         line-height: 28px;
     }
+/* 
+    > textarea {
+        background: transparent;
+        padding: 0;
+        font-size: 16px;
+        line-height: 28px;
+        height: auto;
+    } */
 `
 
 export const Title = styled.div`
